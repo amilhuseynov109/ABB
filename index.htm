@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/favicon.ico">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="mobile bg-white p-5  flex md:hidden justify-between">
+            <div >
+                <img src="img/logoabb.png.jpeg" alt="" class="h-7 md:h-10">
+            </div>
+            <div class="text-xl text-[#7a7f92] flex gap-2 items-center justify-center">
+                <i class="fa-solid fa-language"><a href="#"></a></i>
+                <span class="text-gray-300">|</span>
+                <i class="fa-solid fa-phone"><a href="#"></a></i>937
+                <span class="text-gray-300">|</span>
+                <i class="fa-solid fa-bars"><a href="#"></a></i>
+            </div>
+        </div>
+        <div class="desktop bg-white p-5 justify-around  hidden md:flex">
+            <div class="flex items-center justify-between w-full max-w-[1200px]">
+                 <div class="flex items-center justify-center">
+                    <div>
+                        <img src="img/logoabb.png.jpeg" alt="" class="h-7 md:h-10" >
+                    </div>
+                    <div class="pl-[25px]">
+                        <ul class="flex gap-5  text-xl ">
+                            <li><a href="" class="hover:text-[#1b63ec]">Home</a></li>
+                            <li><a href="" class="hover:text-[#1b63ec]">About</a></li>
+                            <li><a href="" class="hover:text-[#1b63ec]">Deals</a></li>
+                            <li><a href="" class="hover:text-[#1b63ec]">Reservation</a></li>
+                            <li><a href="" class="hover:text-[#1b63ec]">Book yours</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-xl text-[#7a7f92] flex gap-5 items-center justify-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span class="text-gray-300">|</span>
+                    <a href="#" class="hover:text-[#0a0b0d]"><i class="fa-solid fa-language"></i></a>
+                    <span class="text-gray-300">|</span>
+                    <div><i class="fa-solid fa-phone"></i>937</div>
+                    <button class="bg-[#1b63ec] text-white p-2 rounded-xl text-md hover:bg-[#1656d1] duration-300">
+                        <a href="#">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Service network</span>
+
+                        </a>
+                    </button>
+                </div>
+            </div>    
+        </div>
+    </header>
+    <main >
+    <div class="pt-5 md:pt-19 flex items-center justify-center bg-[#f0f0f0]">
+        <div class="md:grid md:grid-cols-3 gap-4 mx-4  max-w-[1200px] "> 
+            <div class="col-span-2 bg-[#1b63ed] p-6 rounded-4xl shadow-sm relative min-h-[300px] mb-5 md:mb-0 md:flex  md:items-center md:justify-center">
+                <div>
+                    <h4 class="text-xl font-bold text-white bg-[#407cf0] w-fit p-2 rounded-xl md:mt-[-20px]">Tam DigiCard</h4>
+                    <h1 class="text-3xl text-white mt-2">Tam DigiCard</h1>
+                    <p class="text-white md:pt-6 md:max-w-[400px] ">Order your card online and benefint from the opportunities!</p>
+                    <button class="bg-white p-3 w-32 h-12 rounded-xl mt-5 md:mt-29"><a href="#">Order now</a></button> 
+                </div>
+                <div class="flex justify-end  ">
+                    <img src="img/tam.png" alt="" class="h-[140px] mt-8 md:mt-0 md:h-[300px] ">
+                </div>    
+            </div>
+<!-- <div class="absolute top-6 right-6 w-10 h-8 bg-[#f1f1f1] rounded-full flex items-center justify-center text-gray-400">↗</div> -->
+            <div class="bg-white p-6 rounded-4xl shadow-sm relative min-h-[300px] mb-5 md:mb-0">
+                <div>
+                    <div class="absolute top-6 right-6 w-10 h-10 md:w-12 md:h-12 bg-[#f1f1f1] rounded-full flex items-center justify-center transition duration-300 ease-in-out hover:scale-125">
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <h1 class="text-2xl font-bold text-gray-800">DigiDeposit</h1>
+                    <p class="text-md  mt-4 ">With ABB's DigiDeposit, you can create a savings account online from anywhere</p>
+                </div>
+                <div class="flex justify-end transition duration-300 ease-in-out hover:scale-115">
+                    <img src="img/s1.png" alt="" class="h-[140px] mt-10 md:mt-15 md:h-[180px]">
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-4xl shadow-sm relative min-h-[180px] mb-5 md:mb-0 md:flex md:justify-between">
+                 <div>
+                       <div class="absolute top-6 right-6 w-10 h-10 md:w-12 md:h-12 bg-[#f1f1f1] rounded-full flex items-center justify-center transition duration-300 ease-in-out hover:scale-125">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div> 
+                    <h1 class="text-2xl font-bold text-gray-800 md:mt-4">ABB Biz</h1>
+                    <p class="text-md  mt-4 md:w-[140px]">Download our mobile app for small businesses</p>
+                 </div>
+                 <div class="flex justify-end transition duration-300 ease-in-out hover:scale-115">
+                    <img src="img/s2.png" alt="" class="h-[140px] mt-10 md:mt-15 md:h-[200px]">
+                    
+                 </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-4xl shadow-sm relative min-h-[180px] mb-5 md:mb-0 md:flex md:justify-between">
+                 <div>
+                        <div class="absolute top-6 right-6 w-10 h-10 md:w-12 md:h-12 bg-[#f1f1f1] rounded-full flex items-center justify-center transition duration-300 ease-in-out hover:scale-125">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    <h1 class="text-2xl font-bold text-gray-800 md:mt-4">Cash loan</h1>
+                    <p class="text-md  mt-4 md:w-[140px]">Fast and affordable loans to meet your financial needs</p>
+                 </div>
+                 <div class="flex justify-end transition duration-300 ease-in-out hover:scale-115">
+                    <img src="img/s3.png" alt="" class="h-[140px] mt-10 md:mt-15 md:h-[200px]">
+                 </div>
+            </div>
+
+             <div class="bg-white p-6 rounded-4xl shadow-sm relative min-h-[180px] mb-5 md:mb-0 md:flex md:justify-between">
+                 <div>
+                    <div class="absolute top-6 right-6 w-10 h-10 md:w-12 md:h-12 bg-[#f1f1f1] rounded-full flex items-center justify-center transition duration-300 ease-in-out hover:scale-125">
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <h1 class="text-2xl font-bold text-gray-800 md:mt-4">ABB mobile</h1>
+                    <p class="text-md  mt-4 md:w-[140px]">Carry out your daily banking operations simply and quickly</p>
+                 </div>
+                 <div class="flex justify-end transition duration-300 ease-in-out hover:scale-115">
+                    <img src="img/s4.png" alt="" class="h-[140px] mt-10 md:mt-15 md:h-[200px]">
+                 </div>
+            </div>
+
+         </div>
+    </div>
+
+<!-- Main 2 -->
+<div class="pt-9 bg-[#f0f0f0]">
+  <div class="flex justify-center mb-6">
+    <h3 class="text-[#7a7d90] ">Quick links</h3>
+  </div>
+
+  <div class="flex justify-center w-full ">
+    <div class="flex flex-wrap justify-center md:justify-between items-start p-4 gap-6 md:gap-0 w-full max-w-[1200px] group:  md:mb-10">
+      
+      <a href="#" class="flex flex-col items-center w-[100px] group">
+        <img src="img/a1.png" alt="" class="h-[65px] md:h-[80px] object-contain transition duration-300 ease-in-out group-hover:scale-125">
+        <p class=" text-center text-[15px] md:text-[20px] mt-2 group-hover:text-black transition duration-300 ease-in-out group-hover:scale-125">Mortgage</p>
+      </a>
+
+      <a href="#" class="flex flex-col items-center w-[100px] group">
+        <img src="img/a2.png" alt="" class="h-[65px] md:h-[80px] object-contain transition duration-300 ease-in-out group-hover:scale-125">
+        <p class=" text-center text-[15px] md:text-[20px] mt-2 group-hover:text-black transition duration-300 ease-in-out group-hover:scale-125">Debit Cards</p>
+      </a>
+
+      <a href="#" class="flex flex-col items-center w-[100px] group">
+        <img src="img/a3.png" alt="" class="h-[65px] md:h-[80px] object-contain duration-300 ease-in-out group-hover:scale-125">
+        <p class=" text-center text-[15px] md:text-[20px] mt-2 group-hover:text-black transition duration-300 ease-in-out group-hover:scale-125">Credit Cards</p>
+      </a>
+
+      <a href="#" class="flex flex-col items-center w-[100px] group">
+        <img src="img/a4.png" alt="" class="h-[65px] md:h-[80px] object-contain duration-300 ease-in-out group-hover:scale-125">
+        <p class=" text-center text-[15px] md:text-[20px] mt-2 group-hover:text-black transition duration-300 ease-in-out group-hover:scale-125">CashBack</p>
+      </a>
+
+      <a href="#" class="flex flex-col items-center w-[100px] group">
+        <img src="img/a5.png" alt="" class="h-[65px] md:h-[80px] object-contain duration-300 ease-in-out group-hover:scale-125">
+        <p class=" text-center text-[15px] md:text-[20px] mt-2  group-hover:text-black transition duration-300 ease-in-out group-hover:scale-125">Branches and ATMs</p>
+      </a>
+
+      <a href="#" class="flex flex-col items-center w-[100px] group">
+        <img src="img/a6.png" alt="" class="h-[65px] md:h-[80px] object-contain duration-300 ease-in-out group-hover:scale-125">
+        <p class=" text-center text-[15px] md:text-[20px]  mt-2 group-hover:text-black transition duration-300 ease-in-out group-hover:scale-125">Investment</p>
+      </a>
+      
+    </div>
+  </div>    
+</div>
+
+<!-- FULL DIGICARD -->
+
+<div class="p-4 md:flex  md: max-w-[1200px] md:mx-auto md:mt-20">    
+     <div class="md:grid  ">
+            <div class="">
+                <div class="flex items-center gap-3 mb-2">
+                    <img src="img/t1.png" alt="" class="h-[23px] w-[43px] md:h-[56px] md:w-[90px]">
+                    <p class="text-3xl md:text-7xl md:whitespace-nowrap">Tam DigiCard</p>
+                </div>
+                <p class="text-3xl md:text-7xl ">Full digital, Full real!</p>
+            </div>
+            <div class="flex items-center justify-between mt-5 md:mt-0 md:justify-between">
+                <div class="md:w-[100px]">
+                    <p class="text-[#0a0b15] text-xl md:text-3xl">Free</p>
+                    <span class="text-[#525452]">Price</span>
+                </div>
+                <div class="md:w-[170px]">
+                    <p class="text-xl text-[#0a0b15] md:text-3xl">Up to 10%</p>
+                    <a href="#" class="text-[#1b92f4]">Faydali Cashback</a>
+                </div>
+                <div class="md:w-[250px]">
+                    <p class="text-xl text-[#0a0b15] md:text-3xl">* 6% annual return</p>
+                    <span class="text-[#525452]">Interest rate</span>
+                </div>
+            </div>
+            <div class="mt-5">
+                <button class="bg-[#1b63ed] p-3 w-[120px] rounded-xl text-white ">
+                    <a href="#">Order Now</a>
+                </button>
+            </div>
+            <div class="text-[#646764] text-sm mt-5 md:mt-0">
+                *Calculated on the balance on the debit part of the card registered in ABB mobile and transferred to the card account at the end of the month
+            </div>
+        </div>
+        <div class="mt-5 md:flex md:justify-end">
+        <img src="img/t2.png" alt="" class="h-[75%]">
+     </div>   
+</div>
+    <div class="md:flex md:max-w-[1200px] md:mx-auto mb-5 md:mb-10 ">
+        <div class="flex flex-col items-center md:items-start ">
+            <p class="text-2xl mb-2 md:text-5xl">
+                <span>Kredit Limit</span>
+                <span class="text-[#6ea2ed] pl-1.5">Find out</span>
+            </p>
+            <p class="text-[#646764] text-lg w-[320px] text-center ">50 000 AZN-dək krediti tam onlayn əldə edin!</p>
+        </div>
+        <div class="px-4">
+            <div class="flex flex-col gap-4 md:flex md:flex-row ">
+                <div class="md:w-[50%]">
+                    <input type="text" placeholder="Phone number" class="w-full p-4 border border-gray-200 rounded-2xl outline-none focus:border-blue-500  ">
+                </div>
+                <div class="md:w-[50%]">
+                    <input type="text" placeholder="PIN (Personal Identification Number)" class="w-full p-4 border border-gray-200 rounded-2xl outline-none focus:border-blue-500 ">
+                    
+                </div>
+            </div>
+            <div class="md:flex">
+                <div class="flex mt-5 items-center">
+                    <div class="flex  gap-3 p-4  max-w-lg">
+                        <div class="flex items-center h-5">
+                            <input  type="checkbox"  class="w-5 h-5 rounded-xl  accent-blue-600 border-gray-300  focus:bg-blue-500  cursor-pointer">
+                        </div>
+                    </div>
+                    <div class="text-[15px] leading-snug text-gray-500 cursor-pointer md:text-sm md:max-w-[600px]">
+                        <p>By clicking the "Continue" button, I consent to the sharing of my information with Bank ABB through the<a href="#" class="text-blue-600 hover:underline">Azerbaijan Credit Bureau</a>and <a href="#" class="text-blue-600 hover:underline">ASAN Finance</a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <button class="w-full md:w-[150px] my-3 max-w-md py-4 bg-[#1d61e7] text-white font-medium text-lg rounded-[15px] hover:bg-blue-700 transition-colors">
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- shape with ABB -->
+
+<div class="bg-[#2a2e36] rounded-t-[40px]">
+    <div class=" rounded-t-[40px] overflow-hidden flex flex-col md:flex-row items-end px-6 pt-8 md:px-12 md:pt-3 relative max-w-[1200px] md:items-center md:mx-auto">
+        
+        <div class="w-full md:w-1/2 text-left pb-8 md:pb-12 ">
+            <h1 class="text-white text-4xl md:text-6xl font-bold text-center">
+            Shape the Future <br>
+            with <span class="text-[#74c4ff]">ABB!</span>
+            </h1>
+            
+            <p class="text-gray-400 mt-6 text-lg  text-center">
+            Explore exciting opportunities, grow your career, and make an impact. 
+            Join our innovative team today on the ABB Career Platform!
+            </p>
+            
+            <div class="flex items-center justify-center">
+                <button class="mt-8 bg-white text-black px-6 py-3 rounded-xl font-medium flex items-center gap-2 hover:bg-gray-100 transition-all">
+            Join us <span>→</span>
+            </button>
+            </div>
+        </div>
+
+        <div class="w-full md:w-1/2 flex justify-end items-end">
+            <img src="img/ad1.png" alt="ABB People" class="w-full h-auto object-contain align-bottom">
+        </div>
+    </div>
+</div>
+
+
+<!-- Compaigns -->
+ <div class="bg-[#f5f5f6] rounded-t-[40px] p-3  ">
+    <div class="md:max-w-[1200px] md:mx-auto">
+        <div>
+            <h1 class="text-2xl md:text-5xl font-bold md:mt-12">Compaigns</h1>
+        </div>
+        <div class="md:mt-12 md:flex md:gap-4 ">
+            <div class="px-5 pt-5 mt-7 bg-[#e1e1e1] rounded-3xl grid gap-4 md:max-w-[33%]">
+                <div>
+                    <h1 class="font-bold text-xl text-center">ABB–AZAL Miles double miles campaign</h1>
+                </div>
+                <div>
+                    <p class="text-[#646764] text-center">For a full 5 days, you can earn double miles on your payments!</p>
+                </div>
+                <div class="mt-7  transition duration-300 ease-in-out hover:scale-115">
+                    <img src="img/p1.png" alt="" class="" >
+                </div>
+            </div>
+            <div class="px-5 pt-5 mt-7 bg-[#e1e1e1] rounded-3xl grid gap-4 md:max-w-[33%]">
+                <div>
+                    <h1 class="font-bold text-xl text-center">New Year cash loan campaign: up to 6% discount!</h1>
+                </div>
+                <div>
+                    <p class="text-[#646764] text-center">You can apply for a cash loan of up to 50,000 AZN on preferential terms fully online!</p>
+                </div>
+                <div class="mt-7 transition duration-300 ease-in-out hover:scale-115">
+                    <img src="img/p2.png" alt="" >
+                </div>
+            </div>
+            <div class="px-5 pt-5 mt-7 bg-[#e1e1e1] rounded-3xl grid gap-4 md:max-w-[33%]">
+                <div>
+                    <h1 class="font-bold text-xl text-center">Special Bank ABB support for your visa application!</h1>
+                </div>
+                <div>
+                    <p class="text-[#646764] text-center">The top 30 customers with the highest turnover will receive an exclusive discount.</p>
+                </div>
+                <div class="mt-7 transition duration-300 ease-in-out hover:scale-115">
+                    <img src="img/p3.png" alt="" >
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   
+
+ <div class="p-2 mt-12 md:max-w-[1200px] mx-auto">
+    <div class="max-w-[320px] mx-auto">
+            <div>
+                <h1 class="text-center text-2xl font-bold">Calculate now</h1>
+            </div>
+            <div class="flex justify-between items-center mt-5">
+                <div class="bg-black text-white p-2.5 rounded-xl">Cash loan</div>
+                <div class="text-[#646764]">deposit</div>
+                <div class="text-[#646764]">Car loan</div>
+                <div class="text-[#646764]">Mortgage</div>
+            </div>
+    </div>
+ </div>
+ 
+<div class="mt-12 flex flex-col md:flex-row gap-10 items-start md:max-w-[1200px] md: mx-auto md:mb-15 md:items-center">
+    
+  <div class="flex-1 w-full "> 
+    <div class="grid gap-3">
+        <div class="flex justify-between">
+            <span>Amount</span>
+            <span class="text-[#202020] text-lg">10000 ₼</span>
+        </div>
+        <input type="range" class="w-full h-5 bg-[#ececec] rounded-md appearance-none cursor-pointer accent-blue-600">
+        <div class="flex justify-between text-gray-400">
+            <span>300 ₼</span>
+            <span>50000 ₼</span>
+        </div>
+    </div>
+    <div class="grid gap-3">
+            <div class="flex justify-between">
+                <span>Term</span>
+                <span class="text-[#202020] text-lg">12 mounths</span>
+            </div>
+            <div>
+                 <input type="range" min="300" max="50000" value="10000" class="w-full h-5 bg-[#ececec] rounded-md appearance-none cursor-pointer accent-blue-600">
+            </div>
+            <div class="flex justify-between">
+                <span>3 mounths</span>
+                <span>59 mounths</span>
+            </div>
+    </div>
+    <div class="grid gap-3">
+            <div class="flex justify-between">
+                <span>Interes rate</span>
+                <span class="text-[#202020] text-lg">12%</span>
+            </div>
+            <div>
+                 <input type="range" min="300" max="50000" value="10000" class="w-full h-5 bg-[#ececec] rounded-md appearance-none cursor-pointer accent-blue-600">
+            </div>
+                <div class="flex justify-between">
+                    <span>10.9%</span>
+                    <span>37.7%</span>
+                </div>
+        </div>
+
+</div>
+
+  <div class="flex-shrink-0 w-full md:w-[350px] bg-blue-600 rounded-[32px] p-8 text-center text-white">
+    <p class="text-lg font-medium opacity-90 mb-2">Monthly payment</p>
+    <div class="flex justify-center items-center gap-2 mb-8">
+        <span class="text-5xl font-bold tracking-tight">2320.91</span>
+        <span class="text-4xl font-normal">₼</span>
+    </div>
+    <button class="w-full bg-white text-black py-5 rounded-2xl font-semibold hover:bg-gray-100 transition-colors">
+        Continue
+    </button>
+  </div>
+
+ <!-- voluyuta  -->
+
+</div>
+<div class=" flex flex-col md:flex-row  flex-wrap justify-evenly items-center mx-3 md:mx-0  overflow-hidden md:max-w-[1200px] md:mx-auto">
+      <div class="bg-black py-10 px-7 rounded-[25px] mt-7 md:mt-0 md:w-[600px] ">
+        <div class="flex justify-between gap-10 mb-5">
+          <div>
+            <p class="text-white text-xl md:text-3xl">Exchange rates </p>
+            <p class="text-[#b8b8b8] text-sm">Last update:30.12.2025</p>
+          </div>
+          <div>
+            <p class="text-white md:text-[16px]">All currency rates ➜</p>
+          </div>
+        </div>
+        <div>
+          <hr class="text-[#b8b8b8] flex justify-center">
+        </div>
+        <div class="flex flex-row justify-between  mt-5">
+          <div class="flex flex-col">
+            <div>
+              <p class="text-[#b8b8b8]">Currency</p>
+            </div>
+            <div>
+              <p class="text-white mt-2 md:text-xl">USD</p>
+            </div>
+            <div>
+              <p class="text-white  mt-2 md:text-xl">EUR</p>
+            </div>
+            <div>
+              <p class="text-white  mt-2 md:text-xl">100 RUB</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col">
+            <div>
+              <p class="text-[#b8b8b8]">Buy</p>
+            </div>
+            <div>
+              <p class="text-white mt-2 md:text-xl">1.6970</p>
+            </div>
+            <div>
+              <p class="text-white mt-2 md:text-xl">1.9631 ⏶</p>
+            </div>
+            <div>
+              <p class="text-white mt-2 md:text-xl">1.8600 ⏶</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col">
+            <div>
+              <p class="text-[#b8b8b8]">Sell</p>
+            </div>
+            <div>
+              <p class="text-white mt-2 md:text-xl">1.7020</p>
+            </div>
+            <div>
+              <p class="text-white mt-2 md:text-xl">2.0332 ⏶</p>
+            </div>
+            <div>
+              <p class="text-white mt-2 md:text-xl">2.5200 ⏶</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class=" bg-[#eeeeee] rounded-[25px] py-10 px-8 mt-9 md:mt-0 ">
+        <div class="flex justify-between gap-10">
+          <div>
+            <p class="md:text-4xl">Сurrency converter</p>
+          </div>
+          <div><img class="w-[100px]" src="img/v1.png" alt=""></div>
+        </div>
+
+        <div class="relative mt-10 flex flex-col items-center gap-5 justify-center">
+          <div><input class="border border-2 w-[280px] h-[40px] border-[#e1e1e2] rounded-[10px] placeholder:pl-3" type="number" placeholder="0"></div>
+          <div><input class="border border-2 w-[280px] h-[40px] border-[#e1e1e2] rounded-[10px] placeholder:pl-3" type="number" placeholder="0"></div>
+          <div class="bg-[#1b63ed] w-[50px] h-[50px] flex justify-center items-center rounded-[50%] absolute top-[22%] left-[40%]">
+            <p class="text-white font-bold">🠕🠗</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Services -->
+ <div>
+    <p class=" text-3xl md:text-5xl text-center mt-6 md:my-8 font-[Inter]">Our Services</p>
+</div>
+    <div class="flex flex-col md:flex-row justify-center items-center mt-8 mx-2">
+      <div class="w-full mx-2  bg-[#f1f1f1] rounded-[15px] md:w-[380px] py-5 px-3 hover:bg-[#1b63ed]  hover:text-white  md:mr-4 duration-300 ease-in-out">
+        <div><i class="fa-solid fa-location-dot text-[#1b63ed] text-4xl hover:text-white"></i></div>
+        <div class="flex justify-between gap-10 mt-10">
+          <div>
+            <p class="text-xl">ATMs and Branches</p>
+          </div>  
+        </div>
+      </div>
+      <div class="flex gap-3 md:gap-7 mx-2 mt-4 md:mt-0 lg:mt-0  duration-300 ease-in-out">
+        <div class="w-[180px] bg-[#f1f1f1] rounded-[15px]  md:w-[380px] py-5 px-3   hover:bg-[#1b63ed]  hover:text-white duration-300 ease-in-out ">
+          <div><i class="fa-solid fa-calendar  text-[#1b63ed] text-4xl"></i></div>
+          <div class="flex justify-between gap-10 mt-15 md:mt-10">
+            <div>
+              <p class="text-xl">Online appointment</p>
+            </div>
+          </div>
+        </div>
+        <div class="  bg-[#f1f1f1] rounded-[15px] w-[180px]  md:w-[380px] py-5 px-3  hover:bg-[#1b63ed]  hover:text-white duration-300 ease-in-out ">
+          <div><i class="fa-solid fa-headphones  text-[#1b63ed] text-4xl"></i></div>
+          <div class="flex justify-between gap-10 mt-15 md:mt-10">
+            <div>
+              <p class="text-xl">Call Center 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row  mt-4 justify-center items-center overflow-hidden mx-2 duration-300 ease-in-out">
+      <div class="flex gap-3 mx-2 ">
+        <div class=" bg-[#f1f1f1] rounded-[15px] w-[180px]  md:w-[290px] py-5 px-3  hover:bg-[#1b63ed]  hover:text-white">
+          <div><i class="fa-solid fa-calculator  text-[#1b63ed] text-4xl"></i></div>
+          <div class="flex justify-between gap-10 mt-15 md:mt-10">
+            <div>
+              <p class="text-xl">Order account statement</p>
+            </div>
+          </div>
+        </div>
+       <div class=" bg-[#f1f1f1] rounded-[15px] w-[180px]  md:w-[290px] py-5 px-3  hover:bg-[#1b63ed]  hover:text-white duration-300 ease-in-out">
+          <div><i class="fa-solid fa-coins  text-[#1b63ed] text-4xl"></i></div>
+          <div class="flex justify-between gap-10 mt-15 md:mt-10">
+            <div>
+              <p class="text-xl">Loan payment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-3 mx-2 mt-4  md:mt-0 ">
+        <div class=" bg-[#f1f1f1] rounded-[15px] w-[180px] md:py-7  md:w-[290px] py-5 px-3  hover:bg-[#1b63ed]  hover:text-white duration-300 ease-in-out">
+          <div><i class="fa-solid fa-hand-holding-heart  text-[#1b63ed] text-4xl"></i></div>
+          <div class="flex justify-between gap-10 mt-15 md:mt-10">
+            <div>
+              <p class="text-xl">Donate</p>
+            </div>
+          </div>
+        </div>
+       <div class=" bg-[#f1f1f1] rounded-[15px] md:py-7   w-[180px] md:w-[290px] py-5 px-3  hover:bg-[#1b63ed]  hover:text-white duration-300 ease-in-out">
+          <div><i class="fa-solid fa-table-cells  text-[#1b63ed] text-4xl"></i></div>
+          <div class="flex justify-between gap-10 mt-15 md:mt-10">
+            <div>
+              <p class="text-xl">All services</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- App -->
+<div class="bg-[#2785ed] flex flex-col md:flex-row md:justify-evenly mt-8 md:mt-[80px] items-center rounded-t-[60px]">
+      <div>
+        <div class="flex md:hidden justify-center items-center mt-8 gap-4">
+          <div class="bg-[#2474c9] rounded-[10px] w-[35px] h-[35px] flex justify-center items-center"><i class="fa-brands fa-apple text-white text-xl "></i></div>
+          <div class="bg-[#2474c9] rounded-[10px] w-[35px] h-[35px] flex justify-center items-center"><i class="fa-brands fa-google-play text-white text-xl"></i></div>
+        </div>
+        <div>
+          <p class="text-white mx-5 text-4xl text-center md:text-start md:text-7xl font-[Inter]">ABB mobile</p>
+        </div>
+        <div class="flex justify-center md:justify-start  mt-5 md:mt-0 ">
+          <p class="text-white  md:text-xl w-[85%]md:w-[80%] md:mb-10 md:mt-4 text-center md:text-start  font-[Inter]"> An innovative and secure banking mobile app with a 4.9 rating!</p>
+        </div>
+        <div class="flex">
+          <div class="bg-white rounded-[20px] hidden md:flex "><img class="md:w-[200px] p-4 rounded-[15px] " src="img/q1.png" alt=""></div>
+          <div class="ml-4">
+            <div class="flex hidden md:flex">
+              <p class="text-[#c2dafa] text-[1.3em] w-[55%] font-[Inter] ">Scan QR code to download ABB mobile </p>
+            </div>
+            <div class="flex mt-3 hidden md:flex md:items-center">
+              <div><i class="fa-brands fa-apple text-white text-3xl"></i></div>
+              <div><i class="fa-brands fa-google-play text-white text-2xl"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-7 md:mt-0  "><img class="md:w-[600px] " src="img/b1.png" alt=""></div>
+      
+    </div>
+
+<!-- News -->
+
+<div class="bg-[#f0f0f0]  ">
+      <div class="  rounded-t-[60px] pb-[30px] md:pb-[100px] md:max-w-[1200px] md:mx-auto">
+        <div class="flex flex-row md:flex-row  flex-wrap justify-between mx-5 md:pt-10 pt-10 md:mx-10">
+          <div class="md:mt-4">
+            <p class="text-xl md:text-5xl font-[Inter]">Relevant now</p>
+          </div>
+          <div class="md:mt-7"><a class="text-[#134fc2] font-[Inter]" href="">All news ➞</a></div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-center items-center gap-5 mt-10 ">
+          <div class=" mx-3 md:mx-0">
+            <div><img class="md:w-[380px] rounded-[20px]" src="img/n1.png" alt=""></div>
+            <div>
+              <p class="text-xl hover:underline mt-3 font-[Inter] md:max-w-[300px]">Rəşid Behbudovun itmiş rəsmi ABB-nin dəstəyi ilə yenidən yaradıldı!</p>
+            </div>
+            <div>
+              <p class="text-[#898182] mt-2 font-[Inter] ">18.12.2025</p>
+            </div>
+          </div>
+          <div class=" mx-3 md:mx-0 md:pt-7">
+            <div><img class="md:w-[380px] rounded-[20px]" src="img/n2.png" alt=""></div>
+            <div>
+              <p class="text-xl hover:underline mt-3 font-[Inter] md:max-w-[300px]">ABB-də gələcəyin bankçılığını qarşılayın –  səsli süni intellekt köməkçisi ilə bank əməliyyatları!<br>
+                sertifikatı aldı!</p>
+            </div>
+            <div>
+              <p class="text-[#898182] mt-2 font-[Inter]">02.12.2025</p>
+            </div>
+          </div>
+          <div class=" md:w-[25%] hidden  md:block md:pt-7">
+            <div>
+              <p class="text-2xl md:mb-3 hover:underline  hover:transition-[1s] font-[Inter]">ABB “İlin əqdi” mükafatını qazandı!</p>
+            </div>
+            <div>
+              <p class="text-[#898182] mb-3 font-[Inter]">02.12.2025</p>
+            </div>
+            <div>
+              <hr class="text-[#898182]">
+            </div>
+            <div>
+              <p class="mt-3 text-2xl hover:underline font-[Inter]">ABB-nin dəstəyi ilə Agile sammiti – süni intellekt və data təcrübəsi paylaşılacaq!</p>
+            </div>
+            <div>
+              <p class="text-[#898182] mb-3 font-[Inter]">24.11.2025</p>
+            </div>
+            <div>
+              <hr class="text-[#898182]">
+            </div>
+            <div>
+              <p class="mt-3 text-2xl hover:underline font-[Inter]">ABB yeni korporativ saytını təqdim etdi!</p>
+            </div>
+            <div>
+              <p class="text-[#898182] mb-3 font-[Inter]">19.11.2025</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div>
+          <p class="text-center text-2xl md:text-5xl mt-7 md:mt-10 md:mb-10 font-[Inter]">Caring for your finances</p>
+        </div>
+        <div class="flex flex-col md:flex-row  flex-wrap justify-center items-center gap-5 mt-5 md:mt-[60px] mx-3 md:mx-0 ">
+          <div class="bg-white text-center rounded-[20px]">
+            <div class="mx-5 py-5 md:py-0  md:pt-8 flex md:flex-col ">
+              <div>
+                <div>
+                  <p class="text-xl md:text-2xl font-[Inter]">Manage your money</p>
+                </div>
+                <div>
+                  <p class="text-[#7a7d82] pt-3 pb-2 md:pb-9 font-[Inter] md:max-w-[340px]">Protect your future with our reliable security solutions qoruyun.</p>
+                </div>
+                <div class="flex justify-center">
+                  <div class="bg-[#004eeb] w-[100px] flex justify-center items-center rounded-[10px] py-2 hover:bg-[#134fc2] "><a class="text-white" href=""> Learn more </a></div>
+                </div>
+              </div>
+              <div class="flex justify-center items-center md:items-end  mt-[10px] md:mt-[18px] "><img class=" w-[290px] md:w-[280px] hover:transition duration-300 ease-in-out hover:scale-115 " src="img/o1.png" alt=""></div>
+
+            </div>
+          </div>
+
+          <div class="bg-white text-center rounded-[20px]">
+            <div class="mx-5 py-5 md:py-0  md:pt-8 flex md:flex-col ">
+              <div>
+                <div>
+                  <p class="text-xl md:text-2xl font-[Inter]">Plan for the future</p>
+                </div>
+                <div>
+                  <p class="text-[#7a7d82] pt-3 pb-2 md:pb-9 font-[Inter] md:max-w-[340px]">Get personalized financial support whenever you need it.</p>
+                </div>
+                <div class="flex justify-center">
+                  <div class="bg-[#004eeb] w-[100px] flex justify-center items-center rounded-[10px] py-2 hover:bg-[#134fc2] "><a class="text-white" href=""> Learn more</a></div>
+                </div>
+              </div>
+              <div class="flex justify-center items-center md:items-end mt-[10px] md:mt-[30px] "><img class=" w-[290px] md:w-[280px] hover:transition duration-300 ease-in-out hover:scale-115 " src="img/o2.png" alt=""></div>
+
+            </div>
+          </div>
+
+          <div class="bg-white text-center rounded-[20px]">
+            <div class="mx-5 py-5 md:py-0  md:pt-8 flex md:flex-col ">
+              <div>
+                <div>
+                  <p class="text-xl md:text-2xl font-[Inter]">Secure your finances</p>
+                </div>
+                <div>
+                  <p class="text-[#7a7d82] pt-3 pb-2 md:pb-9 font-[Inter] md:max-w-[340px]">Financial fraud is a common issue today. Follow these tips to protect your money</p>
+                </div>
+                <div class="flex justify-center">
+                  <div class="bg-[#004eeb] w-[100px] flex justify-center items-center rounded-[10px] py-2 hover:bg-[#134fc2] "><a class="text-white" href="" class="hover:bg-[#134fc2]" > Learn more</a></div>
+                </div>
+              </div>
+              <div class="flex justify-center items-center md:items-end  mt-[10px] md:mt-[30px] "><img class=" w-[290px] md:w-[280px] hover:transition duration-300 ease-in-out hover:scale-115"  src="img/o3.png" alt=""></div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+<!-- Star -->
+
+    <div class="flex flex-col md:flex-row justify-around items-center bg-white py-6 md:py-10">
+      <div>
+        <div>
+          <p class=" text-2xl text-center md:text-start md:text-5xl mb-2 font-[Inter]">Rate <span class="text-blue-400">The Page</span>
+          </p>
+        </div>
+        <div>
+          <p class="text-sm md:text-xl text-[#7a7d82] mb-5 font-[Inter]">Share your thoughts with us. Your feedback matters!</p>
+        </div>
+      </div>
+      <div>
+        <div class="bg-[#f5f5f6] flex gap-3 py-3 px-4 rounded-[10px] ">
+          <div><i class="fa-solid fa-star text-[#c9c9c9] text-2xl hover:text-[#004eeb]  hover:scale-[1.2]"></i></div>
+          <div><i class="fa-solid fa-star text-[#c9c9c9] text-2xl hover:text-[#004eeb]  hover:scale-[1.2]"></i></div>
+          <div><i class="fa-solid fa-star text-[#c9c9c9] text-2xl hover:text-[#004eeb]  hover:scale-[1.2]"></i></div>
+          <div><i class="fa-solid fa-star text-[#c9c9c9] text-2xl hover:text-[#004eeb]  hover:scale-[1.2]"></i></div>
+          <div><i class="fa-solid fa-star text-[#c9c9c9] text-2xl hover:text-[#004eeb]  hover:scale-[1.2]"></i></div>
+        </div>
+      </div>
+    </div>
+
+    </main>
+    <footer>
+      <div class="bg-[#24282f] ">
+      <div class=" flex flex-col md:flex-row  justify-center gap-5 pt-10">
+        <div class="flex">
+          <div class="">
+            <div class=""><img src="img/oo1.png" alt=""></div>
+            <div class="pl-5">
+              <p class="text-[#c1c2c4] font-[Inter]">Tel:</p>
+              <p class="text-white font-[Inter]">+994 12 493 00 91</p>
+            </div>
+            <div class="pl-5 mt-3">
+              <p class="text-[#c1c2c4] font-[Inter]">Faks:</p>
+              <p class="text-white font-[Inter]">+994 12 493 00 91</p>
+            </div>
+
+          </div>
+          <div class=" mt-[100px] md:mt-[110px]">
+            <div class="pl-5">
+              <p class="text-[#c1c2c4] font-[Inter]">E-poçt:</p>
+              <p class="text-white font-[Inter]">info@abb-bank.az</p>
+            </div>
+            <div class="mt-3 pl-5">
+              <p class="text-[#c1c2c4] font-[Inter]">Street</p>
+              <p class="text-white font-[Inter]">67, Nizami st, AZ1005 Bakı, Azərbaijan</p>
+            </div>
+          </div>
+        </div>
+        <div class=" mx-3 ">
+          <div class="bg-[#2e323a] flex  rounded-[20px]">
+            <div class="mx-6">
+              <p class="text-white text-xl mt-4 font-[Inter]">Download ABB mobile</p>
+              <div class="flex gap-2 mt-3">
+                <div class="bg-[#202226] w-[35px] h-[35px] flex justify-center items-center rounded-[10px]"><i class="fa-brands fa-apple text-white"></i></div>
+                <div class="bg-[#202226] w-[35px] h-[35px] flex justify-center items-center rounded-[10px]"><i class="fa-brands fa-google-play text-white"></i></div>
+              </div>
+              <div class="bg-white w-[130px] md:w-[150px] flex justify-center items-center py-2 mb-5 px-1 rounded-[10px] mt-[70px]">
+                <a href=""><i class="fa-solid fa-dice-four pr-2"></i>Download app</a>
+              </div>
+            </div>
+            <div><img src="img/aa1.png" alt=""></div>
+          </div>
+        </div>
+        <div class="mx-3 md:mx-0">
+          <div class="bg-[#292d34] rounded-[20px] py-6 px-6 pr-10">
+            <div>
+              <p class="text-white text-xl mb-4 font-[Inter]">ABB Career</p>
+            </div>
+            <div>
+              <p class="text-[#c4c5c7] font-[Inter]">Write your success story with ABB</p>
+            </div>
+            <div class="bg-[#257fed] flex justify-center items-center w-[140px] py-2 rounded-[10px] mt-[60px]"><a class="text-white" href="">Career portal</a></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <hr class="text-[#63666d] my-8 md:mx-8">
+      </div>
+
+    <div class="flex flex-col items-center md:flex-row  justify-between md:mx-18  md:max-w-[1200px] md:mx-auto">
+      <div class="">
+        <div class="flex gap-4">
+          <div class="bg-[#212224] w-[55px] h-[55px]  rounded-[50%] flex justify-center items-center  hover:bg-[#257fed]"><i class="fa-brands fa-x-twitter text-white text-2xl"></i></div>
+          <div class="bg-[#212224] w-[55px] h-[55px]  rounded-[50%] flex justify-center items-center  hover:bg-[#257fed]"><i class="fa-brands fa-youtube  text-white text-2xl"></i></div>
+          <div class="bg-[#212224] w-[55px] h-[55px]  rounded-[50%] flex justify-center items-center  hover:bg-[#257fed]"><i class="fa-brands fa-instagram  text-white text-2xl"></i></div>
+          <div class="bg-[#212224] w-[55px] h-[55px]  rounded-[50%] flex justify-center items-center  hover:bg-[#257fed]"><i class="fa-brands fa-square-facebook  text-white text-2xl"></i></div>
+          <div class="bg-[#212224] w-[55px] h-[55px]  rounded-[50%] flex justify-center items-center  hover:bg-[#257fed]"><i class="fa-brands fa-linkedin-in  text-white text-2xl"></i></div>
+        </div>
+      </div>
+      <div class=" mt-5 md:mt-0"><p class="text-[#c3c4c6]  font-[Inter]">© ABB 2025 - All rights reserved</p></div>
+      <div class=" mt-5 md:mt-0">
+        <div class="flex gap-4 items-center">
+          <div><img class="w-[40px]" src="img/f1.png" alt=""></div>
+          <div><img class="w-[40px]" src="img/f2.png" alt=""></div>
+          <div><img class="w-[40px]" src="img/f3.png" alt=""></div>
+          <div><img class="w-[40px]" src="img/f4.png" alt=""></div>
+          <div><img class="w-[40px]" src="img/f5.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
+
+        
+
+       
